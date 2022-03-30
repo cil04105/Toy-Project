@@ -1,4 +1,4 @@
-import Jumbotron from "./components/Jumbotron";
+import Banner from "./components/Banner";
 import { NavDropdown, Container, Navbar, Nav } from "react-bootstrap";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           </Container>
         </Navbar>
       </div>
-      <Jumbotron />
+      <Banner />
     </>
   );
 }
