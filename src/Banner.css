@@ -1,10 +1,25 @@
+.bannerContainer {
+  text-align: center;
+}
+
 .banner {
   padding: 30px;
   height: 300px;
-  text-align: center;
-  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./background.jpeg");
+  color: white;
+  background-color: #eee;
 }
 
 .banner button {
-  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.col-md-4 {
+  text-align: center;
 }

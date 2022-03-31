@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import { NavDropdown, Container, Navbar, Nav } from "react-bootstrap";
 
 function App() {
+  // let [products, setProducts] = useState();
   return (
     <>
       <div className="App">
@@ -15,12 +16,7 @@ function App() {
                 <Nav.Link href="#link">Link</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
+
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action/3.4">
                     Separated link
@@ -32,6 +28,37 @@ function App() {
         </Navbar>
       </div>
       <Banner />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <img
+              src="https://codingapple1.github.io/shop/shoes1.jpg "
+              alt="img"
+              width="100%"
+            />
+            <h3>상품명1</h3>
+            <p>상품설명&가격</p>
+          </div>
+          <div className="col-md-4">
+            <img
+              src="https://codingapple1.github.io/shop/shoes2.jpg"
+              alt="img"
+              width="100%"
+            />
+            <h3>상품명2</h3>
+            <p>상품설명&가격</p>
+          </div>
+          <div className="col-md-4">
+            <img
+              src="https://codingapple1.github.io/shop/shoes3.jpg"
+              alt="img"
+              width="100%"
+            />
+            <h3>상품명3</h3>
+            <p>상품설명&가격</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
