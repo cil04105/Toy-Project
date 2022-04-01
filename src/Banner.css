@@ -1,10 +1,6 @@
-.bannerContainer {
-  text-align: center;
-}
-
-.banner {
+.jumbotron {
   padding: 30px;
-  height: 300px;
+  text-align: center;
   background-size: cover;
   background-position: center;
   background-image: url("./background.jpeg");
@@ -12,14 +8,14 @@
   background-color: #eee;
 }
 
-.banner button {
+/* .banner button {
   display: inline-block;
   margin-top: 50px;
   padding: 5px;
   width: 100px;
   border-radius: 5px;
-}
+} */
 
-.col-md-4 {
+/* .col-md-4 {
   text-align: center;
-}
+} */
