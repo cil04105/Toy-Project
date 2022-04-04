@@ -3,6 +3,7 @@
 import Banner from "./components/Banner";
 import Card from "./components/Card";
 import NavBar from "./components/NavBar";
+import Detail from "./components/Detail";
 
 import { useState } from "react";
 import Data from "./data";
@@ -26,7 +27,7 @@ function App() {
           </div>
         </Route>
         <Route path="/detail">
-          <div>상세페이지</div>
+          <Detail />
         </Route>
 
         {/* <Route path="/" component={Modal}></Route> */}
