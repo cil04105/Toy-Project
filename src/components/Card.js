@@ -6,9 +6,9 @@ function Card(props) {
         alt="img"
         width="100%"
       />
-      <h3>{props.products.title}</h3>
+      <h3>{props.shoes.title}</h3>
       <p>
-        {props.products.content}&{props.products.price}
+        {props.shoes.content}&{props.shoes.price}
       </p>
     </div>
   );
